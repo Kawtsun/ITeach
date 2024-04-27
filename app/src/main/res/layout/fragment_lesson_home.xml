@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LessonHome">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_LessonTitle"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_gravity="top"
+        android:paddingStart="25dp"
+        android:paddingTop="40dp"
+        android:text="@string/lesson_home"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvMySQL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingEnd="25sp"
+            android:text="@string/sql"
+            android:textAlignment="textEnd"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.154" />
+
+        <TextView
+            android:id="@+id/tvHandler"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvMySQL"
+            app:layout_constraintVertical_bias="0.096" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvHandler"
+            app:layout_constraintVertical_bias="0.0"
+            tools:listitem="@layout/each_lesson"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

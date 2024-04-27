@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ITeach</string>
+
+    <!-- Bottom Nav -->
+    <string name="lesson">Lesson</string>
+    <string name="result">Result</string>
+    <string name="about">About</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lesson_home">Lesson</string>
+    <string name="result_home">Result</string>
+    <string name="about_home">About</string>
+
+
+    <string name="sql">MySQL</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue id ex at maximus. Duis.</string>
+
+    <string name="lesson1">Lesson 1</string>
+    <string name="lesson2">Lesson 2</string>
+    <string name="lesson3">Lesson 3</string>
+    <string name="lesson4">Lesson 4</string>
+</resources>
