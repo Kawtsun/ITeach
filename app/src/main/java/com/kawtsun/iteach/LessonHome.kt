@@ -85,10 +85,10 @@ class LessonHome : Fragment() {
 
 
     private fun addDataToList() {
-        mList.add(LessonData(getString(R.string.lesson1), getString(R.string.lorem)))
-        mList.add(LessonData(getString(R.string.lesson2), getString(R.string.lorem)))
-        mList.add(LessonData(getString(R.string.lesson3), getString(R.string.lorem)))
-        mList.add(LessonData(getString(R.string.lesson4), getString(R.string.lorem)))
+        mList.add(LessonData(getString(R.string.lesson1), getString(R.string.lorem),getString(R.string.loremLong)))
+        mList.add(LessonData(getString(R.string.lesson2), getString(R.string.lorem),getString(R.string.loremLong)))
+        mList.add(LessonData(getString(R.string.lesson3), getString(R.string.lorem),getString(R.string.loremLong)))
+        mList.add(LessonData(getString(R.string.lesson4), getString(R.string.lorem),getString(R.string.loremLong)))
     }
 
 }

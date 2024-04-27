@@ -15,7 +15,8 @@
 
     <string name="sql">MySQL</string>
 
-    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue id ex at maximus. Duis.</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="loremLong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas efficitur est, eu hendrerit ex fringilla non. Ut molestie, erat a efficitur molestie, purus erat luctus felis, eu scelerisque dui lorem eget massa. Pellentesque eu lectus a justo condimentum varius. Sed sed rutrum mi. Nulla elementum turpis vitae ipsum vulputate, a vulputate neque aliquam. Phasellus ultrices turpis a nunc volutpat lobortis. Maecenas eget justo vel est iaculis pretium. Ut facilisis tellus vitae turpis efficitur, aliquam volutpat erat ultrices. Praesent convallis, quam quis feugiat molestie, lectus metus vehicula est, ut placerat orci ligula quis arcu. Ut ultricies arcu nec neque tempus fringilla. Nulla cursus cursus lacinia. In ex enim, mollis ac sapien ut, accumsan consectetur urna. Etiam dapibus mattis nisl sodales pharetra. Praesent dapibus, nunc vel consectetur feugiat, tellus arcu euismod felis, tincidunt tempus metus nulla at magna. Vestibulum eu rutrum purus.</string>
 
     <string name="lesson1">Lesson 1</string>
     <string name="lesson2">Lesson 2</string>
