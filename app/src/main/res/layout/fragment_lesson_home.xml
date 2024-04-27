@@ -8,8 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".LessonHome">
 
-
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/tv_LessonTitle"
         android:layout_width="match_parent"
