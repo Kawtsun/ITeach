@@ -1,10 +1,12 @@
 package com.kawtsun.iteach
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -28,6 +30,7 @@ class LessonHome : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private var mList = ArrayList<LessonData>()
     private lateinit var adapter: LessonAdapter
+    var lessonDetails = ArrayList<String>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -72,6 +75,12 @@ class LessonHome : Fragment() {
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        lessonDetails.add(getString(R.string.loremlong))
+        lessonDetails.add(getString(R.string.loremlong))
+        lessonDetails.add(getString(R.string.loremlong))
+        lessonDetails.add(getString(R.string.loremlong))
+
+
         recyclerView = view.findViewById(R.id.recyclerView)
         val layoutManager = LinearLayoutManager(context)
 
@@ -79,8 +88,20 @@ class LessonHome : Fragment() {
         recyclerView.layoutManager = layoutManager
 
         addDataToList()
-        adapter = LessonAdapter(mList)
+        val adapter = LessonAdapter(mList)
         recyclerView.adapter = adapter
+
+        adapter.setOnItemClickListener(object : LessonAdapter.onItemClickListener{
+            override fun onItemClick(position: Int) {
+                //Toast.makeText(requireActivity(),"You Clicked om Item no. $position", Toast.LENGTH_LONG).show()
+
+                val intent = Intent(requireActivity(),LessonView::class.java)
+                intent.putExtra("Heading", mList[position].title)
+                intent.putExtra("Details", lessonDetails[position])
+                startActivity(intent)
+            }
+
+        })
     }
 
 
