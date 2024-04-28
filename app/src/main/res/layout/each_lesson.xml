@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,7 +10,7 @@
     app:cardUseCompatPadding="true"
     android:layout_marginHorizontal="8dp"
     app:cardElevation="12dp">
-    
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,11 +23,11 @@
             android:layout_marginStart="2dp"
             android:layout_marginEnd="242dp"
             android:layout_marginBottom="8dp"
-            android:paddingTop="5dp"
             android:paddingStart="10dp"
+            android:paddingTop="5dp"
             android:text="Lesson 1"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -38,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="22dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="10dp"
             android:paddingStart="30sp"
             android:paddingTop="5sp"
             android:text="@string/lorem"
@@ -53,4 +55,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+
+
 </com.google.android.material.card.MaterialCardView>
+

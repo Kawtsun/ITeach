@@ -11,14 +11,12 @@
     <TextView
         android:id="@+id/tv_LessonTitle"
         android:layout_width="match_parent"
-        android:layout_height="94dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:paddingStart="25dp"
-        android:paddingTop="40dp"
+        android:paddingTop="60dp"
         android:text="@string/lesson_home"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        android:textStyle="bold"
         tools:ignore="RtlSymmetry" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -27,20 +25,19 @@
 
         <TextView
             android:id="@+id/tvMySQL"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingEnd="25sp"
+            android:layout_marginTop="76dp"
             android:text="@string/sql"
             android:textAlignment="textEnd"
+            android:paddingEnd="25dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/tvHandler"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.154" />
+            app:layout_constraintVertical_bias="0.482" />
 
         <TextView
             android:id="@+id/tvHandler"
@@ -53,8 +50,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/tvMySQL"
-            app:layout_constraintVertical_bias="0.096" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.177" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"

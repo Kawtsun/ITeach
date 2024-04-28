@@ -12,11 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:paddingStart="25dp"
-        android:paddingTop="40dp"
+        android:paddingTop="60dp"
         android:text="@string/result_home"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        android:textStyle="bold"
         tools:ignore="RtlSymmetry" />
 
 </FrameLayout>
