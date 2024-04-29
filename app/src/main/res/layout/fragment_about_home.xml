@@ -45,7 +45,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_LessonTitle"
-            app:layout_constraintVertical_bias="0.607" />
+            app:layout_constraintVertical_bias="0.607"
+            tools:ignore="VisualLintLongText" />
 
         <TextView
             android:id="@+id/tvContributors"
@@ -61,7 +62,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvAboutDescription"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="RtlSymmetry" />
 
 
         <LinearLayout
@@ -91,21 +93,24 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun" />
+                    android:src="@drawable/kawtsun"
+                    tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
                 android:id="@+id/tvKawtsun"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri1"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:ignore="RtlSymmetry" />
 
 
         </LinearLayout>
@@ -138,21 +143,24 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun" />
+                    android:src="@drawable/kawtsun"
+                    tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
                 android:id="@+id/tvKawtsun2"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri2"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:ignore="RtlSymmetry" />
 
         </LinearLayout>
 
@@ -184,21 +192,24 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun" />
+                    android:src="@drawable/kawtsun"
+                    tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
                 android:id="@+id/tvKawtsun3"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri3"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:ignore="RtlSymmetry" />
 
 
         </LinearLayout>
@@ -231,21 +242,24 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun" />
+                    android:src="@drawable/kawtsun"
+                    tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
                 android:id="@+id/tvKawtsun4"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri4"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:ignore="RtlSymmetry" />
 
 
         </LinearLayout>
@@ -278,21 +292,24 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun" />
+                    android:src="@drawable/kawtsun"
+                    tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
                 android:id="@+id/tvKawtsun5"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri5"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:ignore="RtlSymmetry" />
 
 
         </LinearLayout>
@@ -324,21 +341,24 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun" />
+                    android:src="@drawable/kawtsun"
+                    tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
                 android:id="@+id/tvKawtsun6"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri6"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:ignore="RtlSymmetry" />
 
 
         </LinearLayout>
@@ -357,9 +377,8 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/logo" />
-
-
+                android:src="@drawable/logo"
+                android:contentDescription="@string/logo" />
         </com.google.android.material.card.MaterialCardView>
 
 
