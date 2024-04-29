@@ -13,6 +13,14 @@
     <string name="about_home">About</string>
     <string name="contributor">Contributors</string>
 
+
+    <string name="contri1">Kawtsun</string>
+    <string name="contri2">Kawtsun</string>
+    <string name="contri3">Kawtsun</string>
+    <string name="contri4">Kawtsun</string>
+    <string name="contri5">Kawtsun</string>
+    <string name="contri6">Kawtsun</string>
+
     <string name="sql">MySQL</string>
 
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue id ex at maximus. Duis.</string>
