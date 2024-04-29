@@ -21,6 +21,8 @@
     <string name="contri5">Kawtsun</string>
     <string name="contri6">Kawtsun</string>
 
+    <string name="aboutinfo"> This application\'s purpose is to provide a tutorial guide on how to learn MySQL. This was a project that was given to us in our application development subject, and we were tasked with creating computer-aided instructions for any of the IT subjects.</string>
+
     <string name="sql">MySQL</string>
 
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue id ex at maximus. Duis.</string>
