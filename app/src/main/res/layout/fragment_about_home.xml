@@ -68,7 +68,6 @@
             android:id="@+id/contri1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/contri2"
             app:layout_constraintEnd_toEndOf="parent"
