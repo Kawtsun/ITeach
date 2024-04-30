@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -20,6 +22,10 @@ class ResultHome : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+
+    private lateinit var recyclerView2: RecyclerView
+    private var mList2 = ArrayList<ResultData>()
+    private lateinit var adapter2: ResultAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,4 +62,25 @@ class ResultHome : Fragment() {
                 }
             }
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        recyclerView2 = view.findViewById(R.id.recyclerView2)
+        val layoutManager2 = LinearLayoutManager(context)
+
+        recyclerView2.setHasFixedSize(true)
+        recyclerView2.layoutManager = layoutManager2
+
+        addDataToList2()
+        adapter2 = ResultAdapter(mList2)
+        recyclerView2.adapter = adapter2
+    }
+
+
+    private fun addDataToList2() {
+        mList2.add(ResultData(getString(R.string.lesson1), getString(R.string.lorem), getString(R.string.lorem2)))
+        mList2.add(ResultData(getString(R.string.lesson2), getString(R.string.lorem),getString(R.string.lorem2)))
+        mList2.add(ResultData(getString(R.string.lesson3), getString(R.string.lorem),getString(R.string.lorem2)))
+        mList2.add(ResultData(getString(R.string.lesson4), getString(R.string.lorem),getString(R.string.lorem2)))
+    }
+
 }
