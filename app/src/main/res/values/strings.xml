@@ -37,4 +37,16 @@ Proin placerat arcu mauris, vel feugiat turpis vestibulum id. Morbi bibendum orc
     <string name="lesson2">Lesson 2</string>
     <string name="lesson3">Lesson 3</string>
     <string name="lesson4">Lesson 4</string>
+
+
+    <string name="question1"> What is your Name?</string>
+    <string name="question2"> What is your Name?</string>
+    <string name="question3"> What is your Name?</string>
+    <string name="question4"> What is your Name?</string>
+    <string name="question5"> What is your Name?</string>
+
+    <string name="choices1">Alpha</string>
+    <string name="choices2">Beta</string>
+    <string name="choices3">Zeta</string>
+    <string name="choices4">Delta</string>
 </resources>

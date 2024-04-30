@@ -42,8 +42,241 @@
                 android:layout_height="wrap_content"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="@string/loremlong"
+                android:text="@string/lorem"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/tvQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Quiz"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Question 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/question1button1"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question1button2"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question1button3"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question1button4"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <!-- Question 2 -->
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Question 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/question2button1"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question2button2"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question2button3"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question2button4"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <!-- Question 3-->
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Question 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/question3button1"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question3button2"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question3button3"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question3button4"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <!-- Question 4-->
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Question 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/question4button1"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question4button2"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question4button3"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question4button4"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <!-- Question 5-->
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Question 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/question5button1"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question5button2"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question5button3"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/question5button4"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Button" />
         </LinearLayout>
     </ScrollView>
 

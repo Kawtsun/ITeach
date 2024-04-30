@@ -41,7 +41,6 @@ class LessonAdapter(var mList: List<LessonData>) : RecyclerView.Adapter<LessonAd
     override fun onBindViewHolder(holder: LessonViewHolder, position: Int) {
         holder.tvTitle.text = mList[position].title
         holder.tvDescription.text = mList[position].titleDescription
-        holder
 
     }
 }
