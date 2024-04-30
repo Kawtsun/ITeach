@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.graphics.text.TextRunShaper
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,10 @@ class LessonView : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_lesson_view)
+
+        var number : Int = 1
+        val numbers : Int = 0
+        val score : TextView = findViewById(R.id.score)
 
         val headingLesson : TextView = findViewById(R.id.heading)
         val detailsLesson: TextView = findViewById(R.id.lessonInfo)
@@ -49,6 +54,171 @@ class LessonView : AppCompatActivity() {
         val question5Button2: Button = findViewById(R.id.question5button2)
         val question5Button3: Button = findViewById(R.id.question5button3)
         val question5Button4: Button = findViewById(R.id.question5button4)
+
+        //Incorrect answer buttons
+        try{
+            question1Button1.setOnClickListener {
+                question1Button2.isEnabled = false;
+                question1Button1.isEnabled = false;
+                question1Button4.isEnabled = false;
+                question1Button3.isEnabled = false;
+                question1Button1.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question1Button2.setOnClickListener {
+                question1Button2.isEnabled = false;
+                question1Button1.isEnabled = false;
+                question1Button4.isEnabled = false;
+                question1Button3.isEnabled = false;
+                question1Button2.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question1Button4.setOnClickListener {
+                question1Button2.isEnabled = false;
+                question1Button1.isEnabled = false;
+                question1Button4.isEnabled = false;
+                question1Button3.isEnabled = false;
+                question1Button4.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+
+            question2Button1.setOnClickListener {
+                question2Button2.isEnabled = false;
+                question2Button1.isEnabled = false;
+                question2Button4.isEnabled = false;
+                question2Button3.isEnabled = false;
+                question2Button1.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question2Button3.setOnClickListener {
+                question2Button2.isEnabled = false;
+                question2Button1.isEnabled = false;
+                question2Button4.isEnabled = false;
+                question2Button3.isEnabled = false;
+                question2Button3.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question2Button4.setOnClickListener {
+                question2Button2.isEnabled = false;
+                question2Button1.isEnabled = false;
+                question2Button4.isEnabled = false;
+                question2Button3.isEnabled = false;
+                question2Button4.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+
+
+            question3Button2.setOnClickListener {
+                question3Button2.isEnabled = false;
+                question3Button1.isEnabled = false;
+                question3Button4.isEnabled = false;
+                question3Button3.isEnabled = false;
+                question3Button2.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question3Button3.setOnClickListener {
+                question3Button2.isEnabled = false;
+                question3Button1.isEnabled = false;
+                question3Button4.isEnabled = false;
+                question3Button3.isEnabled = false;
+                question3Button3.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question3Button4.setOnClickListener {
+                question3Button2.isEnabled = false;
+                question3Button1.isEnabled = false;
+                question3Button4.isEnabled = false;
+                question3Button3.isEnabled = false;
+                question3Button4.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+
+            question4Button1.setOnClickListener {
+                question4Button2.isEnabled = false;
+                question4Button1.isEnabled = false;
+                question4Button4.isEnabled = false;
+                question4Button3.isEnabled = false;
+                question4Button1.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question4Button2.setOnClickListener {
+                question4Button2.isEnabled = false;
+                question4Button1.isEnabled = false;
+                question4Button4.isEnabled = false;
+                question4Button3.isEnabled = false;
+                question4Button2.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question4Button3.setOnClickListener {
+                question4Button2.isEnabled = false;
+                question4Button1.isEnabled = false;
+                question4Button4.isEnabled = false;
+                question4Button3.isEnabled = false;
+                question4Button3.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+
+            question5Button2.setOnClickListener {
+                question5Button2.isEnabled = false;
+                question5Button1.isEnabled = false;
+                question5Button4.isEnabled = false;
+                question5Button3.isEnabled = false;
+                question5Button2.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question5Button3.setOnClickListener {
+                question5Button2.isEnabled = false;
+                question5Button1.isEnabled = false;
+                question5Button4.isEnabled = false;
+                question5Button3.isEnabled = false;
+                question5Button3.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+            question5Button4.setOnClickListener {
+                question5Button2.isEnabled = false;
+                question5Button1.isEnabled = false;
+                question5Button4.isEnabled = false;
+                question5Button3.isEnabled = false;
+                question5Button4.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+            }
+
+        }catch (e: IllegalArgumentException){
+            score.text = "0"
+        }
+
+
+        //Correct answer buttons
+        try{
+            question1Button3.setOnClickListener {
+                question1Button2.isEnabled = false;
+                question1Button1.isEnabled = false;
+                question1Button4.isEnabled = false;
+                question1Button3.isEnabled = false;
+                question1Button3.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+                score.text = (number++).toString()
+            }
+            question2Button2.setOnClickListener {
+                question2Button2.isEnabled = false;
+                question2Button1.isEnabled = false;
+                question2Button4.isEnabled = false;
+                question2Button3.isEnabled = false;
+                question2Button2.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+                score.text = (number++).toString()
+            }
+            question3Button1.setOnClickListener {
+                question3Button2.isEnabled = false;
+                question3Button1.isEnabled = false;
+                question3Button4.isEnabled = false;
+                question3Button3.isEnabled = false;
+                question3Button1.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+                score.text = (number++).toString()
+            }
+            question4Button4.setOnClickListener {
+                question4Button2.isEnabled = false;
+                question4Button1.isEnabled = false;
+                question4Button4.isEnabled = false;
+                question4Button3.isEnabled = false;
+                question4Button4.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+                score.text = (number++).toString()
+            }
+            question5Button1.setOnClickListener {
+                question5Button2.isEnabled = false;
+                question5Button1.isEnabled = false;
+                question5Button4.isEnabled = false;
+                question5Button3.isEnabled = false;
+                question5Button1.setBackgroundColor(getResources().getColor(R.color.questioncolor));
+                score.text = (number++).toString()
+            }
+        }catch (e: IllegalArgumentException){
+            score.text = "0"
+        }
+
 
 
         val bundle: Bundle?= intent.extras
@@ -119,5 +289,7 @@ class LessonView : AppCompatActivity() {
         question5Button2.text = ques5button2
         question5Button3.text = ques5button3
         question5Button4.text = ques5button4
+
     }
+
 }
