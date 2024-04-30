@@ -49,4 +49,10 @@ Proin placerat arcu mauris, vel feugiat turpis vestibulum id. Morbi bibendum orc
     <string name="choices2">Beta</string>
     <string name="choices3">Zeta</string>
     <string name="choices4">Delta</string>
+
+    <string name="question">Question</string>
+
+    <string name="gotoquiz">Go to quiz</string>
+    <string name="quiz">Quiz</string>
+    <string name="nothing">null</string>
 </resources>

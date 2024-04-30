@@ -52,7 +52,7 @@
                 android:layout_marginTop="40dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Quiz"
+                android:text="@string/quiz"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 
             <TextView
@@ -62,7 +62,7 @@
                 android:layout_marginTop="40dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Question 1"
+                android:text="@string/question"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textSize="22sp"/>
 
@@ -72,7 +72,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question1button2"
@@ -80,7 +80,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question1button3"
@@ -88,7 +88,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question1button4"
@@ -96,7 +96,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <!-- Question 2 -->
 
@@ -107,7 +107,7 @@
                 android:layout_marginTop="40dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Question 1"
+                android:text="@string/question"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textSize="22sp"/>
 
@@ -117,7 +117,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question2button2"
@@ -125,7 +125,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question2button3"
@@ -133,7 +133,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question2button4"
@@ -141,7 +141,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <!-- Question 3-->
 
@@ -152,7 +152,7 @@
                 android:layout_marginTop="40dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Question 1"
+                android:text="@string/question"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textSize="22sp"/>
 
@@ -162,7 +162,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question3button2"
@@ -170,7 +170,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question3button3"
@@ -178,7 +178,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question3button4"
@@ -186,7 +186,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <!-- Question 4-->
 
@@ -197,7 +197,7 @@
                 android:layout_marginTop="40dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Question 1"
+                android:text="@string/question"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textSize="22sp"/>
 
@@ -207,7 +207,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question4button2"
@@ -215,7 +215,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question4button3"
@@ -223,7 +223,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question4button4"
@@ -231,7 +231,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <!-- Question 5-->
 
@@ -242,7 +242,7 @@
                 android:layout_marginTop="40dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Question 1"
+                android:text="@string/question"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textSize="22sp"/>
 
@@ -252,7 +252,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question5button2"
@@ -260,7 +260,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question5button3"
@@ -268,7 +268,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
 
             <Button
                 android:id="@+id/question5button4"
@@ -276,7 +276,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Button" />
+                android:text="@string/nothing" />
         </LinearLayout>
     </ScrollView>
 
