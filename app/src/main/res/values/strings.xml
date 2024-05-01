@@ -54,5 +54,10 @@ Proin placerat arcu mauris, vel feugiat turpis vestibulum id. Morbi bibendum orc
 
     <string name="gotoquiz">Go to quiz</string>
     <string name="quiz">Quiz</string>
+    <string name="quiz1">Quiz 1</string>
+    <string name="quiz2">Quiz 2</string>
+    <string name="quiz3">Quiz 3</string>
+    <string name="quiz4">Quiz 4</string>
+    <string name="click">Click to View Quiz Score</string>
     <string name="nothing">null</string>
 </resources>
