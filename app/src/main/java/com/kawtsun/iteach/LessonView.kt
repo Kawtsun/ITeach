@@ -19,7 +19,6 @@ class LessonView : AppCompatActivity() {
         setContentView(R.layout.activity_lesson_view)
 
         var number : Int = 1
-        val numbers : Int = 0
         val score : TextView = findViewById(R.id.score)
 
         var questioncolor = Color.rgb(103, 80, 164)
