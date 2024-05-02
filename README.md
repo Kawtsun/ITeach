@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://github.com/Kawtsun/ITeach>
+<a href="https://github.com/Kawtsun/ITeach">
     <img src="./.github/assets/logo.png" alt="ITeach logo" title="ITeach Logo" width="100" border-radius="15"/>
 </a>
 
