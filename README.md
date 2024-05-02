@@ -1,6 +1,5 @@
 <div align="center">
-
-<a href="https://mihon.app](https://github.com/Kawtsun/ITeach">
+<a href="https://github.com/Kawtsun/ITeach>
     <img src="./.github/assets/logo.png" alt="ITeach logo" title="ITeach Logo" width="100" border-radius="15"/>
 </a>
 
@@ -12,7 +11,7 @@ Discover MySQL's ways and origins to create a database for your data.
 
 ## Download
 
-<a href="https://mihon.app](https://github.com/Kawtsun/ITeach/releases">
+<a href="https://github.com/Kawtsun/ITeach/releases">
     <img src="./.github/assets/download.png" alt="ITeach logo" title="ITeach Logo" width="50"/>
 </a>
 
