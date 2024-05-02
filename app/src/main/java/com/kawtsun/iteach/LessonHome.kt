@@ -86,13 +86,13 @@ class LessonHome : Fragment() {
         question3.add(getString(R.string.Lesson1Ques3))
         question3.add(getString(R.string.Lesson2Ques3))
         question3.add(getString(R.string.Lesson3Ques3))
-        question3.add(getString(R.string.Lesson4Ques1))
+        question3.add(getString(R.string.Lesson4Ques3))
 
         //Questions 4
         question4.add(getString(R.string.Lesson1Ques4))
         question4.add(getString(R.string.Lesson2Ques4))
         question4.add(getString(R.string.Lesson3Ques4))
-        question4.add(getString(R.string.Lesson4Ques1))
+        question4.add(getString(R.string.Lesson4Ques4))
 
         //Questions 5
         question5.add(getString(R.string.Lesson1Ques5))
