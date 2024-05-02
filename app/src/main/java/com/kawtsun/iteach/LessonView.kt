@@ -11,6 +11,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.isVisible
 
 class LessonView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -55,6 +56,8 @@ class LessonView : AppCompatActivity() {
         val question5Button2: Button = findViewById(R.id.question5button2)
         val question5Button3: Button = findViewById(R.id.question5button3)
         val question5Button4: Button = findViewById(R.id.question5button4)
+
+
 
         //Incorrect answer buttons
         try{
@@ -218,6 +221,8 @@ class LessonView : AppCompatActivity() {
         }catch (e: IllegalArgumentException){
             score.text = "0"
         }
+
+        score.isVisible = false
 
         val bundle: Bundle?= intent.extras
         val heading = bundle!!.getString("Heading")

@@ -38,11 +38,346 @@ Proin placerat arcu mauris, vel feugiat turpis vestibulum id. Morbi bibendum orc
     <string name="lesson3">Lesson 3</string>
     <string name="lesson4">Lesson 4</string>
 
-    <string name="LessonDes1">Introduction to MySQL, its origins, how it works, and how to create your own database for managing data for everyday or business use.
+    <string name="LessonDes1">\u25CF Introduction to MySQL
+\n\u25CF Creating Database
     </string>
-    <string name="LessonDes2">In a database, there is a table inside. Learn how to create a table inside a database and insert data that you will use in your database.</string>
-    <string name="LessonDes3">Learn how to manipulate the table structure because there are instances where one may wish to change the table structure if needed.</string>
-    <string name="LessonDes4">Learn how to manipulate data from the inserted data in the table because there are instances where one may wish to change the data inserted if needed.</string>
+    <string name="LessonDes2">\u25CF Table Create
+\n\u25CF Inserting Data from Table</string>
+    <string name="LessonDes3">\u25CF Table Manipulation</string>
+    <string name="LessonDes4">\u25CF Data Manipulation</string>
+
+    <string name="lessonAll1">MySQL Introduction
+
+\n\nMySQL is a relational database management system based on the Structured Query Language (SQL), which is a programming language used for managing and accessing records of databases. MySQL is an open-source and free software under the GNU license supported by the Oracle Company.
+
+
+\n\nWhat is Database?
+
+\n\nDatabase is an application that stores the organized collection of records. It can be easily managed and accessed by the user. It enables us to organize data in the form of tables, rows, columns and indexes to find relevant information very quickly. For conducting database operations like creating, managing, accessing, and searching the data it stores, each database has a unique API. There are numerous databases available today, including Sybase, MySQL, Oracle, MongoDB, PostgreSQL, SQL Server, and more.
+
+\n\nCreating Database
+
+\n\nWhen creating database the syntax used will be:
+CREATE DATABASE database_name
+
+\n\nreplace the "database_name" with your ideal database name.
+
+\n\nfor example:
+
+\n\nCREATE DATABASE ITeach
+
+\n\nDone! (thumbs up)
+
+    </string>
+
+    <string name="lessonAll2">Table is used to organized data in a structured format by arranging data in rows and columns. This is similar to worksheets in the spreadsheet program. Two requirements are usually needed for a table creation command:
+
+\n\n\u25CB Name of the table
+\n\u25CB Name of fields
+\n\u25CB Definition for each field (Optional)
+
+\n\nBefore creating a table, it is important to note that a database should be selected first to direct the table inside the database.
+
+n\n\When creating database the syntax used will be:
+
+\n\nCREATE TABLE table_name(
+\ncolumn_specification1,
+\ncolumn_specification2,
+\n......,
+\ntable_constraints(optional)
+\n)
+        \n\nExample:
+
+\n\nCREATE TABLE users(
+\nUserID VARCHAR(5),
+\nLName VARCHAR(255),
+\nFName VARCHAR(255),
+\nAdress VARCHAR(100),
+\nAge INT,
+\nPRIMARY KEY(UserID)
+\n)
+
+
+\n\nInserting data from table
+
+\n\nThere are two ways in inserting data to a table.
+
+\n\nThe first option is using the SET command. Here we use the syntax:
+
+\n\nINSERT INTO table_name
+\nSET
+\ncol_name1=value1
+\ncol_name2=value2
+\n...
+        \n\nUsing the SET command, it is important to specify the column\'s name. The user may even skip other columns if there is no data needed to be added to the column.
+
+        \n\nUnlike the SET command, VALUES does not need to specify the column\'s name; instead, it depends on how the column is structured.
+
+\n\nJust like before, we will be using the user table for this example.
+
+\n\nINSERT INTO users
+\nVALUES(
+\n\'00101\',
+\n\'Dizon\',
+\n\'Isaac Rossdale\',
+\nNULL,
+\n20
+\n)
+
+\n\nBecause the VALUES command is dependent on how the column was constructed, the user needs to insert data in every column in order for it to work. In the case of skipping a column, the user can place NULL inside said columns to leave them empty.
+    </string>
+
+    <string name="lessonAll3">
+        In table manipulation, also called alter table, we can change the table structure depending on some situations that may require you to change the structure.
+\n\nThis is the list of commands that you can use:
+
+\n\n\u25CF Add Column
+\n\u25CF Modify Column
+\n\u25CF Rename/Change Column
+\n\u25CF Drop Column
+\n\u25CF Add Index
+\n\u25CF Drop Index
+\n\u25CF Add Constraint
+\n\u25CF Drop Constraint
+
+\n\n\u25BA Add Column Syntax
+
+\n\nALTER TABLE TableName ADD columnName Data Type
+
+\nALTER TABLE users ADD Sex VARCHAR(6)
+
+\n\n\u25BA Modify Column Syntax
+
+\n\nALTER TABLE TableName MODIFY columnname NewDataType
+
+\nALTER TABLE users MODIFY Address CHAR(123)
+
+\n\n\u25BA Rename Column Syntax
+
+\n\nALTER TABLE TableName CHANGE columnnName newColumnName DataType
+
+\n\n\u25BA Drop Column Syntax
+
+\n\nALTER TABLE TableName DROP columnname
+
+\nALTER TABLE users DROP Age
+
+\n\n\u25BA Add Index Syntax
+
+\n\nALTER TABLE TableName ADD INDEX INDEX-NAME (columnname)
+
+\nALTER TABLE users ADD INDEX IDX_Surname (LName)
+
+\n\n\u25BA Drop Index Syntax
+
+\n\nALTER TABLE TableName DROP INDEX INDEX_NAME
+
+\nALTER TABLE users DROP INDEX IDX_Surname
+
+\n\n\u25BA Add Constraint Syntax
+
+\n\nThe constraint specifies the start definition for our three types that we can apply, which are:
+
+\n\n\u25CB PRIMARY KEY - It enforces an entity for a specified column or columns by using a unique index. Only one can exist for each table.
+
+\n\n\u25CB UNIQUE - provides entity integrity for a specified column or column by using a unique index.
+
+\n\n\u25CB FOREIGN KEY - provides referential integrity for the data in the column. It requires that each value in the column exist in the specified column in the reference table.
+
+\n\n\u25BA Add Constraint Syntax
+
+\n\nALTER TABLE TableName ADD CONSTRAINT [ConstraintName] [ConstraintType] [ConstraintCondition]
+
+\nALTER TABLE users ADD CONSTRAINT CON_Sex UNIQUE (Sex)
+
+\n\n\u25BA Drop Constaint Syntax
+
+\n\nALTER TABLE TableName DROP [ConstraintName/Index] [ConstraintName]
+
+\n\nALTER TABLE users DROP CON_Sex
+
+\n\nThe added Constraint will be deleted when the DROP command is used
+    </string>
+
+    <string name="lessonAll4">There are times when the user needs to change data from the table; this can be achieved with the use of the UPDATE command.
+
+\n\nThis is the Syntax for the UPDATE command:
+
+\n\nUPDATE table_name
+\nSET column1 = value1,
+\ncolumn2 = value 2
+\n…
+\nWHERE condition;
+
+\n\nHere is an example of the UPDATE command changing the data from our example of the INSERT FROM SET.
+
+\n\nUPDATE users
+\nSET UserID = \'00102\',
+\nLName = \'Vilaga\',
+\nFName = \'Arwin Paul\',
+\nAddress = \'Baras\',
+\nAge = 19
+\nWHERE UserID = \'00100\'
+
+\n\nWith the use of WHERE, the user can specify which row or column of data will be changed. In this case, all the data in the row where the UserID is "00100" will be changed.
+
+\n\nDELETE
+
+\n\nWith the use of the DELETE command, inserted data can be deleted, as the name suggests. Here is the syntax for the DELETE command:
+
+\n\nDELETE FROM table_Name
+\nWHERE condition
+
+\n\nHere is an example with the table based again on the INSERT FROM SET example:
+
+\n\nDELETE FROM users
+\nWHERE Age = 19
+
+\n\nThis command will delete the whole row of every field that has 19 as the inserted data for age.
+
+\n\nIf the user wants to delete all the items in the table without deleting the table itself, the DELETE command can be used in an alternative way:
+
+\n\nDELETE FROM table_name
+
+\n\nHere is an example:
+
+\n\nDELETE FROM users
+
+\n\nThis will delete all the data that was inserted into the table but not the table itself.
+
+    </string>
+
+
+    <string name="Lesson1Ques1">1. What is the meaning of SQL</string>
+    <string name="Lesson1Ques1.1">Standard Query Language</string>
+    <string name="Lesson1Ques1.2">System Query Language</string>
+    <string name="Lesson1Ques1.3">Structured Query Language</string>
+    <string name="Lesson1Ques1.4">System Quarry Language</string>
+
+
+    <string name="Lesson1Ques2">2. What is a database</string>
+    <string name="Lesson1Ques2.1">Application that creates tables</string>
+    <string name="Lesson1Ques2.2">Application that stores organized collection of records</string>
+    <string name="Lesson1Ques2.3">Table making application</string>
+    <string name="Lesson1Ques2.4">Application that creates simple solution for complex problems</string>
+
+    <string name="Lesson1Ques3">3. ____ DATABASE database_name</string>
+    <string name="Lesson1Ques3.1">CREATE</string>
+    <string name="Lesson1Ques3.2">MAKE</string>
+    <string name="Lesson1Ques3.3">BIRTH</string>
+    <string name="Lesson1Ques3.4">SPAWN</string>
+
+    <string name="Lesson1Ques4">4. This symbol use to apply space on database name</string>
+    <string name="Lesson1Ques4.1">∆</string>
+    <string name="Lesson1Ques4.2">^</string>
+    <string name="Lesson1Ques4.3">\'</string>
+    <string name="Lesson1Ques4.4">`</string>
+
+    <string name="Lesson1Ques5">5. It is a relational database management system based on SQL</string>
+    <string name="Lesson1Ques5.1">MySQL</string>
+    <string name="Lesson1Ques5.2">YourSQL</string>
+    <string name="Lesson1Ques5.3">ItSQL</string>
+    <string name="Lesson1Ques5.4">TheySQL</string>
+
+
+
+    <string name="Lesson2Ques1">1. _____  is used to organized data in a structured format by arranging data in rows and columns.</string>
+    <string name="Lesson2Ques1.1">Row</string>
+    <string name="Lesson2Ques1.2">Column</string>
+    <string name="Lesson2Ques1.3">Table</string>
+    <string name="Lesson2Ques1.4">Database</string>
+
+    <string name="Lesson2Ques2">2. it is important to note that a database should be _____ first to direct the table inside the database.</string>
+    <string name="Lesson2Ques2.1">Closed</string>
+    <string name="Lesson2Ques2.2">Selected</string>
+    <string name="Lesson2Ques2.3">Opened</string>
+    <string name="Lesson2Ques2.4">Deleted</string>
+
+    <string name="Lesson2Ques3">3. This command is the another way of inserting the data to a table</string>
+    <string name="Lesson2Ques3.1">SET</string>
+    <string name="Lesson2Ques3.2">INSERT</string>
+    <string name="Lesson2Ques3.3">ADD</string>
+    <string name="Lesson2Ques3.4">PUT</string>
+
+    <string name="Lesson2Ques4">4. Unlike the SET command, VALUES need to specify the column\'s name.</string>
+    <string name="Lesson2Ques4.1">None of the Below</string>
+    <string name="Lesson2Ques4.2">True</string>
+    <string name="Lesson2Ques4.3">Maybe</string>
+    <string name="Lesson2Ques4.4">False</string>
+
+    <string name="Lesson2Ques5">5. This is the another way of inserting the command that does not need to specify the column\'s names.</string>
+    <string name="Lesson2Ques5.1">VALUES</string>
+    <string name="Lesson2Ques5.2">SET</string>
+    <string name="Lesson2Ques5.3">ADD</string>
+    <string name="Lesson2Ques5.4">INSERT</string>
+
+
+
+    <string name="Lesson3Ques1">1. Manipulating the table is also called as _____</string>
+    <string name="Lesson3Ques1.1">DATA CHANGE</string>
+    <string name="Lesson3Ques1.2">ALTER DATA</string>
+    <string name="Lesson3Ques1.3">ALTER TABLE</string>
+    <string name="Lesson3Ques1.4">TIME MANIPULATION</string>
+
+    <string name="Lesson3Ques2">2. This command allows you to add a new column on the table</string>
+    <string name="Lesson3Ques2.1">INSERT</string>
+    <string name="Lesson3Ques2.2">ADD</string>
+    <string name="Lesson3Ques2.3">DROP</string>
+    <string name="Lesson3Ques2.4">SET</string>
+
+    <string name="Lesson3Ques3">3. Command that allows you to add new index</string>
+    <string name="Lesson3Ques3.1">ADD INDEX</string>
+    <string name="Lesson3Ques3.2">SET INDEX</string>
+    <string name="Lesson3Ques3.3">INSERT INDEX</string>
+    <string name="Lesson3Ques3.4">CERTAIN SCIENTIFIC MAGICAL INDEX</string>
+
+    <string name="Lesson3Ques4">4. Allows you to change the variable type on the table</string>
+    <string name="Lesson3Ques4.1">ALTER</string>
+    <string name="Lesson3Ques4.2">UPDATE</string>
+    <string name="Lesson3Ques4.3">CHANGE</string>
+    <string name="Lesson3Ques4.4">MODIFY</string>
+
+    <string name="Lesson3Ques5">5. Allows you to remove a constraint on the table </string>
+    <string name="Lesson3Ques5.1">DROP CONSTRAINT</string>
+    <string name="Lesson3Ques5.2">DESTROY CONSTRAINT</string>
+    <string name="Lesson3Ques5.3">DELETE CONSTRAINT</string>
+    <string name="Lesson3Ques5.4">POP CONSTRAINT</string>
+
+
+
+    <string name="Lesson4Ques1">1. Used to revise/change data from the table.</string>
+    <string name="Lesson4Ques1.1">CHANGE</string>
+    <string name="Lesson4Ques1.2">ALTER</string>
+    <string name="Lesson4Ques1.3">UPDATE</string>
+    <string name="Lesson4Ques1.4">MANIPULATE</string>
+
+    <string name="Lesson4Ques2">2. With the use of ______, the user can specify which row or column of data will be changed.</string>
+    <string name="Lesson4Ques2.1">SELECT</string>
+    <string name="Lesson4Ques2.2">WHERE</string>
+    <string name="Lesson4Ques2.3">FILTER</string>
+    <string name="Lesson4Ques2.4">PICK</string>
+
+    <string name="Lesson4Ques3">3. This command used to delete the inserted data.
+</string>
+    <string name="Lesson4Ques3.1">DELETE</string>
+    <string name="Lesson4Ques3.2">DROP</string>
+    <string name="Lesson4Ques3.3">DESTROY</string>
+    <string name="Lesson4Ques3.4">POP</string>
+
+    <string name="Lesson4Ques4">4. This is how you delete all the items without deleting the table itself.
+</string>
+    <string name="Lesson4Ques4.1">DELETE ALL</string>
+    <string name="Lesson4Ques4.2">POP FROM table_name</string>
+    <string name="Lesson4Ques4.3">DROP FROM table_name</string>
+    <string name="Lesson4Ques4.4">DELETE FROM table_name</string>
+
+    <string name="Lesson4Ques5">5. UPDATE tablename SET Address=\'Philippines\' ____  \'FName=\'Johnny\'AND LName=\'Cena\'
+</string>
+    <string name="Lesson4Ques5.1">WHERE</string>
+    <string name="Lesson4Ques5.2">FILTER</string>
+    <string name="Lesson4Ques5.3">PICK</string>
+    <string name="Lesson4Ques5.4">VALUES</string>
+
 
 
     <string name="question1"> What is your Name?</string>
