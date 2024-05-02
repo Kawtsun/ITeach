@@ -29,8 +29,6 @@ This application\'s purpose is to provide a tutorial guide on how to learn MySQL
 ### License
 
 <pre>
-Copyright © 2015 Javier Tomás
-
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
