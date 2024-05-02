@@ -146,7 +146,7 @@
                     android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun"
+                    android:src="@drawable/isaac"
                     tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
@@ -194,7 +194,7 @@
                     android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun"
+                    android:src="@drawable/arwin"
                     tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
@@ -243,7 +243,7 @@
                     android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun"
+                    android:src="@drawable/yuan"
                     tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
@@ -292,7 +292,7 @@
                     android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun"
+                    android:src="@drawable/wayne"
                     tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>
@@ -341,7 +341,7 @@
                     android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/kawtsun"
+                    android:src="@drawable/aldrin"
                     tools:ignore="ImageContrastCheck" />
 
             </com.google.android.material.card.MaterialCardView>

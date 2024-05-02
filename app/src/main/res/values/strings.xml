@@ -14,12 +14,12 @@
     <string name="contributor">Contributors</string>
     <string name="logo">logo</string>
 
-    <string name="contri1">Kawtsun</string>
-    <string name="contri2">Kawtsun</string>
-    <string name="contri3">Kawtsun</string>
-    <string name="contri4">Kawtsun</string>
-    <string name="contri5">Kawtsun</string>
-    <string name="contri6">Kawtsun</string>
+    <string name="contri1">Morpheus Joshua Francisco</string>
+    <string name="contri2">Isaac Rossdale Dizon</string>
+    <string name="contri3">Arwin Paul Vilaga</string>
+    <string name="contri4">James Yuan Cabrera</string>
+    <string name="contri5">Wayne Cabrera</string>
+    <string name="contri6">Aldrin Capaducio</string>
 
     <string name="aboutinfo"> This application\'s purpose is to provide a tutorial guide on how to learn MySQL. This was a project that was given to us in our application development subject, and we were tasked with creating computer-aided instructions for any of the IT subjects.</string>
 
@@ -32,6 +32,8 @@
 Proin placerat arcu mauris, vel feugiat turpis vestibulum id. Morbi bibendum orci ut aliquam rutrum. Vivamus orci nisi, aliquet at porta a, efficitur sed nibh. Quisque imperdiet a tortor id vestibulum. Cras lobortis augue a elit gravida, accumsan commodo sem cursus. Fusce fermentum euismod neque sit amet elementum. Curabitur elementum, tortor eu laoreet tincidunt, nisl ante fermentum felis, eget volutpat est sem id lacus. Phasellus elementum massa ligula, non laoreet magna tristique ac. Vestibulum accumsan ipsum in tortor pretium, in vestibulum orci facilisis. Donec sem erat, viverra eu tempus quis, faucibus vitae velit. Aenean suscipit in diam vel sodales. Suspendisse in erat non urna sollicitudin egestas id non lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nec faucibus nisi. Suspendisse ac ultricies enim, vel eleifend elit. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula dignissim tincidunt. Vivamus pulvinar sit amet velit at auctor. Mauris vel eleifend orci, eu suscipit massa. Fusce elementum, quam sit amet mollis viverra, massa risus aliquam purus, eu egestas nulla ligula in libero. In massa eros, congue et posuere nec, faucibus tincidunt urna. Donec non consequat magna. Ut porttitor imperdiet accumsan.
 
 Proin placerat arcu mauris, vel feugiat turpis vestibulum id. Morbi bibendum orci ut aliquam rutrum. Vivamus orci nisi, aliquet at porta a, efficitur sed nibh. Quisque imperdiet a tortor id vestibulum. Cras lobortis augue a elit gravida, accumsan commodo sem cursus. Fusce fermentum euismod neque sit amet elementum. Curabitur elementum, tortor eu laoreet tincidunt, nisl ante fermentum felis, eget volutpat est sem id lacus. Phasellus elementum massa ligula, non laoreet magna tristique ac. Vestibulum accumsan ipsum in tortor pretium, in vestibulum orci facilisis. Donec sem erat, viverra eu tempus quis, faucibus vitae velit. Aenean suscipit in diam vel sodales. Suspendisse in erat non urna sollicitudin egestas id non lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nec faucibus nisi. Suspendisse ac ultricies enim, vel eleifend elit.</string>
+
+    <string name="scoreDead">Score = 0 / 5"</string>
 
     <string name="lesson1">Lesson 1</string>
     <string name="lesson2">Lesson 2</string>

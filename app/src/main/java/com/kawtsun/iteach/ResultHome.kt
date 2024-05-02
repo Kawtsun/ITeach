@@ -36,10 +36,10 @@ class ResultHome : Fragment() {
 
 
     private fun addDataToList2() {
-        mList2.add(ResultData(getString(R.string.quiz1), getString(R.string.click), getString(R.string.lorem2)))
-        mList2.add(ResultData(getString(R.string.quiz2), getString(R.string.click),getString(R.string.lorem2)))
-        mList2.add(ResultData(getString(R.string.quiz3), getString(R.string.click),getString(R.string.lorem2)))
-        mList2.add(ResultData(getString(R.string.quiz4), getString(R.string.click),getString(R.string.lorem2)))
+        mList2.add(ResultData(getString(R.string.quiz1), getString(R.string.click), getString(R.string.scoreDead)))
+        mList2.add(ResultData(getString(R.string.quiz2), getString(R.string.click),getString(R.string.scoreDead)))
+        mList2.add(ResultData(getString(R.string.quiz3), getString(R.string.click),getString(R.string.scoreDead)))
+        mList2.add(ResultData(getString(R.string.quiz4), getString(R.string.click),getString(R.string.scoreDead)))
     }
 
 }
