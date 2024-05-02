@@ -38,6 +38,12 @@ Proin placerat arcu mauris, vel feugiat turpis vestibulum id. Morbi bibendum orc
     <string name="lesson3">Lesson 3</string>
     <string name="lesson4">Lesson 4</string>
 
+    <string name="LessonDes1">Introduction to MySQL, its origins, how it works, and how to create your own database for managing data for everyday or business use.
+    </string>
+    <string name="LessonDes2">In a database, there is a table inside. Learn how to create a table inside a database and insert data that you will use in your database.</string>
+    <string name="LessonDes3">Learn how to manipulate the table structure because there are instances where one may wish to change the table structure if needed.</string>
+    <string name="LessonDes4">Learn how to manipulate data from the inserted data in the table because there are instances where one may wish to change the data inserted if needed.</string>
+
 
     <string name="question1"> What is your Name?</string>
     <string name="question2"> What is your Name?</string>
