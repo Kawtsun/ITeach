@@ -35,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:paddingStart="25dp"
             android:paddingEnd="25dp"
             android:text="@string/aboutinfo"
@@ -42,9 +43,9 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintBottom_toBottomOf="@id/tvContributors"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_LessonTitle"
+            app:layout_constraintTop_toBottomOf="@id/logotext"
             app:layout_constraintVertical_bias="0.607"
             tools:ignore="VisualLintLongText" />
 
@@ -52,7 +53,7 @@
             android:id="@+id/tvContributors"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:paddingStart="25dp"
             android:text="@string/contributor"
@@ -70,6 +71,7 @@
             android:id="@+id/contri1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/contri2"
             app:layout_constraintEnd_toEndOf="parent"
@@ -91,8 +93,8 @@
                 app:layout_constraintVertical_bias="0.556">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
                     android:src="@drawable/kawtsun"
@@ -104,12 +106,12 @@
                 android:id="@+id/tvKawtsun"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="7dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri1"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:ignore="RtlSymmetry" />
 
 
@@ -119,7 +121,6 @@
             android:id="@+id/contri2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/contri3"
             app:layout_constraintEnd_toEndOf="parent"
@@ -141,8 +142,8 @@
                 app:layout_constraintVertical_bias="0.556">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
                     android:src="@drawable/kawtsun"
@@ -154,12 +155,12 @@
                 android:id="@+id/tvKawtsun2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="7dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri2"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:ignore="RtlSymmetry" />
 
         </LinearLayout>
@@ -168,7 +169,6 @@
             android:id="@+id/contri3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/contri4"
             app:layout_constraintEnd_toEndOf="parent"
@@ -190,8 +190,8 @@
                 app:layout_constraintVertical_bias="0.556">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
                     android:src="@drawable/kawtsun"
@@ -203,12 +203,12 @@
                 android:id="@+id/tvKawtsun3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="7dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri3"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:ignore="RtlSymmetry" />
 
 
@@ -218,7 +218,6 @@
             android:id="@+id/contri4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/contri5"
             app:layout_constraintEnd_toEndOf="parent"
@@ -240,8 +239,8 @@
                 app:layout_constraintVertical_bias="0.556">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
                     android:src="@drawable/kawtsun"
@@ -253,12 +252,12 @@
                 android:id="@+id/tvKawtsun4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="7dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri4"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:ignore="RtlSymmetry" />
 
 
@@ -268,7 +267,6 @@
             android:id="@+id/contri5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/contri6"
             app:layout_constraintEnd_toEndOf="parent"
@@ -290,8 +288,8 @@
                 app:layout_constraintVertical_bias="0.556">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
                     android:src="@drawable/kawtsun"
@@ -303,12 +301,12 @@
                 android:id="@+id/tvKawtsun5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="7dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri5"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:ignore="RtlSymmetry" />
 
 
@@ -318,8 +316,8 @@
             android:id="@+id/contri6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -339,8 +337,8 @@
                 app:layout_constraintVertical_bias="0.556">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitXY"
                     android:src="@drawable/kawtsun"
@@ -352,33 +350,36 @@
                 android:id="@+id/tvKawtsun6"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="7dp"
                 android:layout_weight="1"
                 android:paddingStart="25dp"
                 android:text="@string/contri6"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:ignore="RtlSymmetry" />
 
 
         </LinearLayout>
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/logotext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
             app:cardCornerRadius="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tvAboutDescription"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/contri6">
+            app:layout_constraintTop_toBottomOf="@id/tv_LessonTitle">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/logo"
                 android:scaleType="fitXY"
-                android:src="@drawable/logo"
-                android:contentDescription="@string/logo" />
+                android:src="@drawable/logo" />
+
         </com.google.android.material.card.MaterialCardView>
 
 
