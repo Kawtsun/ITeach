@@ -14,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 
 class LessonView : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -222,7 +223,16 @@ class LessonView : AppCompatActivity() {
             score.text = "0"
         }
 
+        val submit: Button = findViewById(R.id.submitbutton)
+
         score.isVisible = false
+
+        submit.setOnClickListener {
+                score.isVisible = true
+                submit.isEnabled = false;
+                submit.setBackgroundColor(questioncolor);
+        }
+
 
         val bundle: Bundle?= intent.extras
         val heading = bundle!!.getString("Heading")
