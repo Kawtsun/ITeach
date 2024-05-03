@@ -12,7 +12,7 @@ Discover MySQL's ways and origins to create a database for your data.
 ## Download
 
 <a href="https://github.com/Kawtsun/ITeach/releases">
-    <img src="./.github/assets/download.png" alt="ITeach logo" title="ITeach Logo" width="50"/>
+    <img src="./.github/assets/download.png" alt="Download" title="Download" width="50"/>
 </a>
 
 *Requires Android 7.0 or higher.*
